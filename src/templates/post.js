@@ -8,8 +8,7 @@ import SEO from "../components/seo"
 export default function Template({data}) {
   const {markdownRemark: post} = data;
 
-console.log(post);
-
+  console.log(post);
   return (
     <Layout>
       <SEO title={post.frontmatter.title} />
